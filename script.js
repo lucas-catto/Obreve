@@ -12,8 +12,9 @@ document.addEventListener("DOMContentLoaded", function(){
 
                 arrows += `
                     <div class="card">
-
-                        <img src="${arrow.Imagem}">
+                        <div class="Image">
+                            <img src="${arrow.Imagem}">
+                        </div>
                         
                         <div class="itens">
                             <div class="Nome">${                    arrow.Nome       }</div>
